@@ -1,0 +1,23 @@
+{
+  "name": "story",
+  "version": "1.0.0",
+  "description": "jane's components collection ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/janeluck/story.git"
+  },
+  "keywords": [
+    "storybook",
+    "react"
+  ],
+  "author": "jane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janeluck/story/issues"
+  },
+  "homepage": "https://github.com/janeluck/story#readme"
+}
