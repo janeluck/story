@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { HULI, SvgIcon } from '../examples/SvgIcon';
+import { HULI, Zoo, SvgIcon } from '../examples/SvgIcon';
 
 storiesOf('SvgIcon', module)
     .add('两只老虎', () => (
@@ -14,7 +14,7 @@ storiesOf('SvgIcon', module)
         <HULI />
     ))
     .add('动物园里有什么', () => (
-        <HULI />
+        <Zoo />
     ))
 
 

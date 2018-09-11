@@ -2,16 +2,21 @@
 require('../src/components/SvgIcon/fancy.svg')
 import React, { PureComponent } from 'react'
 import SvgIcon from '../src/components/SvgIcon'
-
+import { data } from './data'
+import _ from 'lodash'
 
 export class HULI extends PureComponent {
     render() {
         return <SvgIcon type='huli' />
     }
 }
-export class HULI1 extends PureComponent {
+export class Zoo extends PureComponent {
     render() {
-        return <SvgIcon type='huli' />
+
+        return <div>
+            {_.map(data, name => <SvgIcon key={name} type={name} />)}
+
+        </div>
     }
 }
 
