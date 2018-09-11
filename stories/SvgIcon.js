@@ -1,14 +1,22 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import {HULI, SvgIcon} from '../examples/SvgIcon';
+import { HULI, SvgIcon } from '../examples/SvgIcon';
 
 storiesOf('SvgIcon', module)
-    .add('with text', () => (
-        <SvgIcon type='laohu' />
+    .add('两只老虎', () => (
+        <div>
+            <SvgIcon type='laohu' />
+            <SvgIcon type='laohu' />
+        </div>
+
     ))
     .add('一只狐狸', () => (
-        <HULI  />
-    ));
+        <HULI />
+    ))
+    .add('动物园里有什么', () => (
+        <HULI />
+    ))
+
 
 
 

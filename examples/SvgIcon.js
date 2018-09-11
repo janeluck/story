@@ -9,6 +9,11 @@ export class HULI extends PureComponent {
         return <SvgIcon type='huli' />
     }
 }
+export class HULI1 extends PureComponent {
+    render() {
+        return <SvgIcon type='huli' />
+    }
+}
 
 export { SvgIcon }
 
