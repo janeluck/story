@@ -2,8 +2,29 @@
 require('../src/components/SvgIcon/fancy.svg')
 import React, { PureComponent } from 'react'
 import SvgIcon from '../src/components/SvgIcon'
-import { data } from './data'
 import _ from 'lodash'
+const data = [
+    'banma',
+    'niu',
+    'laohu',
+    'zhu',
+    'xiongmao',
+    'shizi',
+    'xiaoji',
+    'pangxie',
+    'kaola',
+    'nainiu',
+    'huhou',
+    'jingyu',
+    'ciwei',
+    'huli',
+    'hema',
+    'lu',
+    'daxiang',
+    'maotouying',
+    'gongji',
+    'lang'
+]
 
 export class HULI extends PureComponent {
     render() {

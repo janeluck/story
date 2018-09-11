@@ -1,6 +1,5 @@
+require('./index.css')
 import React, {PureComponent} from 'react'
-
-
 
 export default class SvgIcon extends PureComponent {
   render() {
