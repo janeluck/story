@@ -1,14 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import SvgIcon from '../components/SvgIcon';
+import {HULI, SvgIcon} from '../examples/SvgIcon';
 
-storiesOf('Button', module)
+storiesOf('SvgIcon', module)
     .add('with text', () => (
-        <SvgIcon onClick={action('clicked')} />
+        <SvgIcon type='laohu' />
     ))
-    .add('with some svg', () => (
-        <SvgIcon onClick={action('clicked')} />
+    .add('一只狐狸', () => (
+        <HULI  />
     ));
 
 
