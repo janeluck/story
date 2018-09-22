@@ -6,8 +6,8 @@ import { configure } from '@storybook/react';
 function loadStories() {
     // require('../stories/InputButtonPanel');
     require('../stories/SvgIcon');
-/*     require('../stories/DateRangePicker_input');
-    require('../stories/DateRangePicker_calendar');
+    require('../stories/InputButtonPanel');
+ /*   require('../stories/DateRangePicker_calendar');
     require('../stories/DateRangePicker_day');
     require('../stories/SingleDatePicker');
     require('../stories/SingleDatePicker_input');
